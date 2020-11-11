@@ -223,9 +223,9 @@ include 'connection.php';
                          $mail->SMTPAuth = true;                               
 
                          // Nome do user
-                         $mail->Username = 'ADASDSAD@gmail.com';        
+                         $mail->Username = '';        
                          // Password do E-mail         
-                         $mail->Password = 'ASDASDASD';                           
+                         $mail->Password = '';                           
                          // Tipo de protocolo de segurança
                          $mail->SMTPSecure = 'tls';   
 
