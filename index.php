@@ -246,8 +246,8 @@ include 'connection.php';
                          $mail->setFrom( $email, 'Mailer');
 
                          // Destinatário
-                         $mail->addAddress('ASASASASS@gmail.com', $nome);
-                         $mail->addAddress('ASASASASSSAS.com', 'Restaurante Bar');
+                         $mail->addAddress('', $nome);
+                         $mail->addAddress('', 'Restaurante Bar');
 
                          // Conteúdo
 
